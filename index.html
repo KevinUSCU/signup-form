@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic Signup Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Basic Signup Form</h1>
+    </header>
+    <main>
+      <p>
+        <em>Disclaimer: Please do not type sensitive data into this form, as it is not secure!</em>
+      </p>
+      <br>
+      <form>
+        <fieldset>
+          <legend>Login Data</legend>
+
+          <label for="email">Email: </label>
+          <input id="email" type="email" name="email" value=''><br><br>
+
+          <label for="password">Password: </label>
+          <input id="password" type="password" name="password" value=''><br><br>
+
+          <label for="githubuser">GitHub Username: </label>
+          <input id="githubuser" type="" name="githubuser" value=''>
+
+        </fieldset><br>
+
+        <fieldset>
+          <legend>Pricing Plan</legend>
+          Please select a pricing plan:
+
+          <input id="enterprise" type="radio" name="plan" value="enterprise">
+          <label for="enterprise">Enterprise</label> &nbsp&nbsp
+          
+          <input id="pro" type="radio" name="plan" value="pro">
+          <label for="pro">Pro</label> &nbsp&nbsp
+
+          <input id="free" type="radio" name="plan" value="free">
+          <label for="free">Free</label>
+
+        </fieldset><br>
+
+        <input id="remember" type="checkbox" name="rememberuser" value="">
+        <label for="remember">Remember Me</label><br><br>
+        
+        <button type="submit" name="button">Submit</button>
+      </form>
+    </main><br>
+
+    <footer>
+      <hr>
+      <h6>by Kevin Springer for Unit 26 Checkpoint</h6>
+    </footer>
+  </body>
+</html>
